@@ -2,20 +2,6 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 
 const Quote = ({ quote }) => {
-  // const quotes = [
-  //   "The best ability is availability - someone",
-  //   "[H]istory is written by the victors - Missouri Sen. George Graham Vest",
-  //   "The truth is an important one; the fact (for it is a fact) is a valuable illustration of it. - William Wordsworth",
-  //   "Not till the sun excludes you do I exclude you - Walt Whitman",
-  //   "A society grows great when old men plant trees whose shade they know they shall never sit in. - Greek Proverb",
-  //   "A great judge of character is how appropriate their “screw it” moments are.",
-  //   "Everyone’s a piece of s*** if you smell hard enough.",
-  //   "When u don’t sleep, somebody else gets your dreams.",
-  //   "Friendships are like flowers. You can plant the seed, but you also got to water it. - Bobby Lee",
-  // ];
-
-  console.log(quote);
-
   return (
     <>
       <img
@@ -24,7 +10,12 @@ const Quote = ({ quote }) => {
         alt="One"
         style={{ opacity: 0.3, borderRadius: "100px" }}
       />
-      <Carousel.Caption style={{ textAlign: "center", height: "300px" }}>
+      <Carousel.Caption
+        style={{ 
+          textAlign: "center",
+          height: "300px",
+          fontFamily: "'Merriweather', serif",
+          }}>
         <h2>{quote}</h2>
       </Carousel.Caption>
     </>
