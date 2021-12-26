@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Frameworks, Libraries, Packages implemented::after
+
+React, Create-React-App, Bootstrap { Carousel }, Github Pages
+
 ## Available Scripts
 
 In the project directory, you can run:
