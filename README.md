@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Frameworks, Libraries, Packages implemented::after
+## Frameworks, Libraries, Packages implemented
 
 React, Create-React-App, Bootstrap { Carousel }, Github Pages
 
