@@ -23,6 +23,7 @@ const Container = () => {
         paddingTop: 100,
         margin: "auto",
       }}
+      className="container"
     >
       <Carousel>
         <Carousel.Item interval={7000}>
